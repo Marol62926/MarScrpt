@@ -25,6 +25,6 @@ var body = $response.body;
 var obj = JSON.parse(body);
 
 obj.tradeEndTime = 1900610090000;
-obj.buyCoins = 100;
+obj.balance = 100;
 body = JSON.stringify(obj);
 $done({body});
