@@ -24,7 +24,7 @@ hostname = p.du.163.com
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj.tradeEndTime = 1756667690000;
+obj.tradeEndTime = 1797004800;
 obj.freeCoins = 100;
 body = JSON.stringify(obj);
 $done({body});
