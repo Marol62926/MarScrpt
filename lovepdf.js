@@ -2,6 +2,7 @@ var body = $response.body; // 声明一个变量body并以响应消息体赋值
 var obj = JSON.parse(body); // JSON.parse()将json形式的body转变成对象处理
 
 obj = {
+  "id" : 84887444
   "limits" : {
     "wordpdf" : {
       "mb" : 4000,
@@ -143,6 +144,12 @@ obj = {
   "mode" : 3,
   "certificates_left" : 0,
   "sus_rbt" : false,
+    "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzZXJ2aWNlLmlsb3ZlcGRmLmNvbSIsImF1ZCI6IiIsImlhdCI6MTY0OTE3NjkxMCwibmJmIjoxNjQ5MTc2OTEwLCJqdGkiOjg0ODg3NDQ0fQ.G4r8ZIxzHGOPjuiZbqcqH4HbgBPJwv2cQsU5jKNeZlA",
+  "certificates_left" : 0,
+  "sus_rbt" : false,
+  "loginkey" : "lstu4aGbwsRpcOD4oYfLCCxmJMGX-TZa",
+  "email" : "fukr81@163.com",
+  "name" : "Marol Lee",
   "country" : "US"
 }
 
