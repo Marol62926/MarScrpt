@@ -1,6 +1,6 @@
 var body = $response.body;
 var obj = {
-  "account_type":"1"
+  "account_type":"3"
 };
 body = JSON.stringify(obj);
 $done({body});
