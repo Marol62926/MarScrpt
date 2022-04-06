@@ -28,7 +28,7 @@ obj = {
       "status" : "ACTIVE"
     }
   ]
-}
+};
 
 
 body = JSON.stringify(obj); // 重新打包回json字符串
