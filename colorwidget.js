@@ -1,3 +1,13 @@
+##/*
+#圈X
+#[rewrite_local]
+#ColorWidget解锁vip
+#https://api.revenuecat.com/v1/receipts url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/colorwidget.js
+#[mitm]
+#hostname= api.revenuecat.com
+#*/
+
+
 let obj = JSON.parse($response.body);
 
 obj.subscriber.entitlements = {
