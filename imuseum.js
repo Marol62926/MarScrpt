@@ -23,9 +23,7 @@ obj = {
     "expired": false,
     "expires_at": 1678979035,
     "updated_at": 1649516639,
-    "transaction_id": "190001262116522",
     "purchase_date": 1649516635,
-    "original_transaction_id": "190001262116522",
     "original_purchase_date": 1649516636
   }]
 }
