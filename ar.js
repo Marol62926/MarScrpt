@@ -6,7 +6,7 @@ var obj = {"balance":0,"iosBalance":0,"voucherBalance":0,
            "voucherCount":0,"beanVoucherCount":0,"isNewUser":false,
            "time":1649493057,"voucherSum":0,"isFree":true,"freeTime":1649493057,
            "isAppstoreAutoMonthly":true,"isNewUserVip":true,"newUserWelfareText":"",
-           "vipId":"","vipStatus":1,"expiresDay":"2023-03-09T17:05:07Z","superMonthlyExpire":"2023-03-09T17:05:07Z","isSVIPUser":true,"ok":true}
+           "vipId":"","vipStatus":2,"expiresDay":"2023-03-09T17:05:07Z","superMonthlyExpire":"2023-03-09T17:05:07Z","isSVIPUser":true,"ok":true}
 
 
 body = JSON.stringify(obj);
