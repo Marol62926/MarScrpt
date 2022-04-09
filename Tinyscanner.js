@@ -4,12 +4,12 @@ var obj = JSON.parse(body); // JSON.parse()将json形式的body转变成对象�
 obj = {
   "receipt": {
     "receipt_type": "Production",
-    "adam_id": 595563753,
-    "app_item_id": 595563753,
-    "bundle_id": "com.btgs.scannerhdlite",
-    "application_version": "7022",
+    "adam_id": 1569291816,
+    "app_item_id": 1569291816,
+    "bundle_id": "com.kobe.monogram",
+    "application_version": "40",
     "download_id": 500935934584949171,
-    "version_external_identifier": 847579352,
+    "version_external_identifier": 846821007,
     "receipt_creation_date": "2022-01-26 02:55:19 Etc/GMT",
     "receipt_creation_date_ms": "1643165719000",
     "receipt_creation_date_pst": "2022-01-25 18:55:19 America/Los_Angeles",
@@ -22,7 +22,7 @@ obj = {
     "original_application_version": "22",
     "in_app": [{
       "quantity": "1",
-      "product_id": "BTGS_028SUB_PREM_MONTHLY",
+      "product_id": "com.kobe.monogram.weekly",
       "transaction_id": "730000766600650",
       "original_transaction_id": "730000766600650",
       "purchase_date": "2021-11-25 17:07:45 Etc/GMT",
@@ -42,7 +42,7 @@ obj = {
   },
   "latest_receipt_info": [{
     "quantity": "1",
-    "product_id": "BTGS_028SUB_PREM_MONTHLY",
+    "product_id": "com.kobe.monogram.weekly",
     "transaction_id": "730000766600650",
     "original_transaction_id": "730000766600650",
     "purchase_date": "2021-11-25 17:07:45 Etc/GMT",
@@ -62,14 +62,13 @@ obj = {
   }],
   "latest_receipt": "",
   "pending_renewal_info": [{
-    "auto_renew_product_id": "BTGS_028SUB_PREM_MONTHLY",
-    "product_id": "BTGS_028SUB_PREM_MONTHLY",
+    "auto_renew_product_id": "com.kobe.monogram.weekly",
+    "product_id": "com.kobe.monogram.weekly",
     "original_transaction_id": "730000766600650",
     "auto_renew_status": "1"
   }],
   "status": 0
 }
-
 
 
 body = JSON.stringify(obj); // 重新打包回json字符串
