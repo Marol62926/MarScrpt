@@ -1,9 +1,13 @@
 var body = $response.body;
 var obj = JSON.parse(body); 
 
-var obj = {
-  "account_type:"2";
-}
+var obj = {"balance":0,"iosBalance":0,"voucherBalance":0,
+           "beanVoucherBalance":0,"monthly":0,"isMonthly":true,
+           "voucherCount":0,"beanVoucherCount":0,"isNewUser":false,
+           "time":1649493057,"voucherSum":0,"isFree":true,"freeTime":1649493057,
+           "isAppstoreAutoMonthly":true,"isNewUserVip":true,"newUserWelfareText":"",
+           "vipId":"","vipStatus":1,"expiresDay":123,"superMonthlyExpire":0,"isSVIPUser":true,"ok":true}
+
 
 body = JSON.stringify(obj);
 $done({body});
