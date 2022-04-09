@@ -1,5 +1,15 @@
-var body = $response.body; // 声明一个变量body并以响应消息体赋值
-var obj = JSON.parse(body); // JSON.parse()将json形式的body转变成对象处理
+##/*
+#圈X
+#[rewrite_local]
+#有份简历解锁vip
+#^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/yfjl.js
+#[mitm]
+#hostname= buy.itunes.apple.com
+#*/
+
+
+var body = $response.body; 
+var obj = JSON.parse(body); 
 
 obj = {
   "receipt": {
