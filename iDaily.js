@@ -5,7 +5,6 @@ obj = {
   "success": 1,
   "used_by_other": false,
   "transactions": [{
-    "product_id": "com.chii.iDaily.pro.monthly",
     "product_type": "pres_pro_month",
     "expired": false,
     "expires_at": 1678979035,
@@ -16,7 +15,6 @@ obj = {
     "imsm_pro": 1
   },
   "unified_receipts_info": [{
-    "product_id": "com.chii.iDaily.pro.monthly",
     "product_type": "pres_pro_month",
     "product_groups": ["pres_pro"],
     "renewable": true,
