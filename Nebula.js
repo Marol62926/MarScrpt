@@ -2,7 +2,7 @@
 #圈X
 #[rewrite_local]
 #NEbula解锁vip, 星座运势
-#https://zh-api.nebulahoroscope.com/api/v7/users/*/premium url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/nebula.js
+#https://zh-api.nebulahoroscope.com/api/v7/users/19322278/premium url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/nebula.js
 #[mitm]
 #hostname = zh-api.nebulahoroscope.com
 #*/
