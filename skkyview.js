@@ -13,7 +13,7 @@ let obj = JSON.parse($response.body);
 obj.subscriber.entitlements = {
       "pro":{
               "expires_date":"2029-05-26T05:05:04Z",
-              "product_identifier":"cw_1999_ly_3d0",
+              "product_identifier":"com.skyview.monthly",
               "purchase_date":"2022-04-09T05:05:04Z"
       }
   },
