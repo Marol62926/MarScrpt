@@ -1,11 +1,10 @@
-##/*
-#圈X
-#[rewrite_local]
-#IMuseum解锁vip
-#https://icity-imsm.2q10.com/api/v1/users/mark_paid url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/imuseum.js
-#[mitm]
-#hostname = icity-imsm.2q10.com
-#*/
+# QuanX
+# @Marol62926
+# [rewrite_local]
+# IMuseum解锁vip
+# https://icity-imsm.2q10.com/api/v1/users/mark_paid url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/imuseum.js
+# [mitm]
+# hostname = icity-imsm.2q10.com
 
 var body = $response.body;
 var obj = JSON.parse(body);
