@@ -1,9 +1,10 @@
-#QuanX @Marol62926
-#[rewrite_local]
-#Aloha 解锁 Premium VPN(Mainland无法使用)
-#https://api.alohaprofile.com/v1/profile_info url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/aloha.js
-#[mitm]
-#hostname= api.alohaprofile.com
+# QuanX
+# @Marol62926
+# [rewrite_local]
+# Aloha 解锁 Premium VPN(Mainland无法使用)
+# https://api.alohaprofile.com/v1/profile_info url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/aloha.js
+# [mitm]
+# hostname= api.alohaprofile.com
 
 var body = $response.body; 
 var obj = JSON.parse(body); 
