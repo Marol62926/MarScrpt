@@ -1,4 +1,13 @@
-let obj = JSON.parse($response.body);
+#圈X
+#[rewrite_local]
+#解锁 ShadowLink VPN Premium
+#https://buy.itunes.apple.com/verifyReceipt url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/shadowlink.js
+#[mitm]
+#hostname= buy.itunes.apple.com
+
+var body = $response.body; 
+var obj = JSON.parse(body); 
+
 obj = {
   "receipt": {
     "receipt_type": "Production",
@@ -68,4 +77,5 @@ obj = {
   "status": 0
 }
 
-$done({body: JSON.stringify(obj)});
+body = JSON.stringify(obj);
+$done(body);
