@@ -7,10 +7,7 @@
 #hostname= api.revenuecat.com
 #*/
 
-
-let obj = JSON.parse($response.body);
-  
-obj.subscriber.subscriptions ={
+https://api.revenuecat.com/v1/receipts url response-body "subscription":.*?}} response-body "subscription":{
       "com.skyview.monthly":{
               "billing_issues_detected_at":null,
               "expires_date":"2029-05-26T05:05:04Z",
@@ -22,5 +19,3 @@ obj.subscriber.subscriptions ={
               "unsubscribe_detected_at":null
       }
   }
-
-$done({body: JSON.stringify(obj)});
