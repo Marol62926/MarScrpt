@@ -13,7 +13,7 @@ obj = {
     "receipt_type": "Production",
     "adam_id": 1569291816,
     "app_item_id": 1569291816,
-    "bundle_id": "com.dbmeterpro.dB-Meter-Free",
+    "bundle_id": "com.skypaw.decibel",
     "application_version": "40",
     "download_id": 500935934584949171,
     "version_external_identifier": 846821007,
@@ -29,7 +29,7 @@ obj = {
     "original_application_version": "22",
     "in_app": [{
       "quantity": "1",
-      "product_id": "com.dbmeterpro.premiumModeSubscriptionWithTrial",
+      "product_id": "com.skypaw.decibelx.membership.monthly",
       "transaction_id": "730000766600650",
       "original_transaction_id": "730000766600650",
       "purchase_date": "2021-11-25 17:07:45 Etc/GMT",
@@ -49,7 +49,7 @@ obj = {
   },
   "latest_receipt_info": [{
     "quantity": "1",
-    "product_id": "com.dbmeterpro.premiumModeSubscriptionWithTrial",
+    "product_id": "com.skypaw.decibelx.membership.monthly",
     "transaction_id": "730000766600650",
     "original_transaction_id": "730000766600650",
     "purchase_date": "2021-11-25 17:07:45 Etc/GMT",
@@ -69,8 +69,8 @@ obj = {
   }],
   "latest_receipt": "",
   "pending_renewal_info": [{
-    "auto_renew_product_id": "com.dbmeterpro.premiumModeSubscriptionWithTrial",
-    "product_id": "com.dbmeterpro.premiumModeSubscriptionWithTrial",
+    "auto_renew_product_id": "com.skypaw.decibelx.membership.monthly",
+    "product_id": "com.skypaw.decibelx.membership.monthly",
     "original_transaction_id": "730000766600650",
     "auto_renew_status": "1"
   }],
