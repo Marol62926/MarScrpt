@@ -7,7 +7,7 @@
 #hostname= api.revenuecat.com
 #*/
 
-https://api.revenuecat.com/v1/receipts url response-body "subscription":.*?}} response-body "subscription":{
+https://api.revenuecat.com/v1/receipts url response-body "subscriptions":.*?}, response-body "subscriptions":{
       "com.skyview.monthly":{
               "billing_issues_detected_at":null,
               "expires_date":"2029-05-26T05:05:04Z",
