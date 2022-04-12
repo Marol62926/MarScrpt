@@ -18,7 +18,6 @@ obj = {
       "signedUp": true,
       "canceled": true,
       "is_in_free_trial_period": true,
-      "expirationDate": "2022-04-16",
       "app_store": {
         "plan_id": "desktop-monthly-usd",
         "country_geoip": "CN"
