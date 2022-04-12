@@ -1,11 +1,10 @@
-##/*
-#圈X
-#[rewrite_local]
-#一甜相机解锁vip
-#https?:\/\/m2u-api\.getkwai\.com\/api-server\/api\/v\d\/vip\/vipUserInfo url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/ytxj.js
-#[mitm]
-#hostname= m2u-api.getkwai.com
-#*/
+# QuanX
+# @Marol62926
+# [rewrite_local]
+# 一甜相机解锁vip
+# https?:\/\/m2u-api\.getkwai\.com\/api-server\/api\/v\d\/vip\/vipUserInfo url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/ytxj.js
+# [mitm]
+# hostname= m2u-api.getkwai.com
 
 var body = $response.body; 
 var obj = JSON.parse(body); 
