@@ -29,7 +29,7 @@ obj = {
     "original_application_version": "22",
     "in_app": [{
       "quantity": "1",
-      "product_id": "com.photoscanner.yearly",
+      "product_id": "com.photoscanners.yearly",
       "transaction_id": "730000766600650",
       "original_transaction_id": "730000766600650",
       "purchase_date": "2021-11-25 17:07:45 Etc/GMT",
@@ -49,7 +49,7 @@ obj = {
   },
   "latest_receipt_info": [{
     "quantity": "1",
-    "product_id": "com.photoscanner.yearly",
+    "product_id": "com.photoscanners.yearly",
     "transaction_id": "730000766600650",
     "original_transaction_id": "730000766600650",
     "purchase_date": "2021-11-25 17:07:45 Etc/GMT",
@@ -69,8 +69,8 @@ obj = {
   }],
   "latest_receipt": "",
   "pending_renewal_info": [{
-    "auto_renew_product_id": "com.photoscanner.yearly",
-    "product_id": "com.photoscanner.yearly",
+    "auto_renew_product_id": "com.photoscanners.yearly",
+    "product_id": "com.photoscanners.yearly",
     "original_transaction_id": "730000766600650",
     "auto_renew_status": "1"
   }],
