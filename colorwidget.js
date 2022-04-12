@@ -8,7 +8,8 @@
 
 
 
-let obj = JSON.parse($response.body);
+var body = $response.body;
+var obj = JSON.parse(body);
 
 obj.subscriber.entitlements = {
       "pro":{
@@ -31,4 +32,5 @@ obj.subscriber.subscriptions ={
       }
   }
 
-$done({body: JSON.stringify(obj)});
+body = JSON.stringify(obj); 
+$done(body); 
