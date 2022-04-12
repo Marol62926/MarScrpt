@@ -1,4 +1,13 @@
-let obj = JSON.parse($response.body);
+# 圈X
+# [rewrite_local]
+# Photo Scanner解锁vip, 无需登录
+# ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/photoScanner.js
+# [mitm]
+# hostname= buy.itunes.apple.com
+
+var body = $response.body; 
+var obj = JSON.parse(body); 
+
 obj = {
   "receipt": {
     "receipt_type": "Production",
@@ -68,4 +77,5 @@ obj = {
   "status": 0
 }
 
-$done({body: JSON.stringify(obj)});
+body = JSON.stringify(obj);
+$done(body);
