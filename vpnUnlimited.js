@@ -1,3 +1,11 @@
+# QuanX
+# @Marol62926
+# [rewrite_local]
+# 解锁 VPN-UNLIMITED Premium
+# https://buy.itunes.apple.com/verifyReceipt url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/vpnUnlimited.js
+# [mitm]
+# hostname= buy.itunes.apple.com
+
 var body = $response.body; 
 var obj = JSON.parse(body); 
 
