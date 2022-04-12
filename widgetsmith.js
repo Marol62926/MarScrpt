@@ -1,7 +1,7 @@
 let obj = JSON.parse($response.body);
 
 obj.subscriber.entitlements = {
-      "pro":{
+      "Premium":{
               "expires_date":"2029-05-26T05:05:04Z",
               "product_identifier":"PremiumMonthly",
               "purchase_date":"2022-04-09T05:05:04Z"
