@@ -1,7 +1,7 @@
 # QuanX
 # @Marol62926
 # [rewrite_local]
-# 解锁 ShadowLink VPN Premium
+# 解锁 ShadowLink VPN Premium com.shadowlink.subscriptionnn.year
 # https://buy.itunes.apple.com/verifyReceipt url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/shadowlink.js
 # [mitm]
 # hostname= buy.itunes.apple.com
@@ -30,7 +30,7 @@ obj = {
     "original_application_version": "22",
     "in_app": [{
       "quantity": "1",
-      "product_id": "com.shadowlink.subscriptionnn.year",
+      "product_id": "mobi.mobilejump.freevpn.001",
       "transaction_id": "730000766600650",
       "original_transaction_id": "730000766600650",
       "purchase_date": "2021-11-25 17:07:45 Etc/GMT",
@@ -50,7 +50,7 @@ obj = {
   },
   "latest_receipt_info": [{
     "quantity": "1",
-    "product_id": "com.shadowlink.subscriptionnn.year",
+    "product_id": "mobi.mobilejump.freevpn.001",
     "transaction_id": "730000766600650",
     "original_transaction_id": "730000766600650",
     "purchase_date": "2021-11-25 17:07:45 Etc/GMT",
@@ -70,8 +70,8 @@ obj = {
   }],
   "latest_receipt": "",
   "pending_renewal_info": [{
-    "auto_renew_product_id": "com.shadowlink.subscriptionnn.year",
-    "product_id": "com.shadowlink.subscriptionnn.year",
+    "auto_renew_product_id": "mobi.mobilejump.freevpn.001",
+    "product_id": "mobi.mobilejump.freevpn.001",
     "original_transaction_id": "730000766600650",
     "auto_renew_status": "1"
   }],
