@@ -2,15 +2,15 @@ var body = $response.body;
 var obj = JSON.parse(body);
 
 obj.subscriber.entitlements = {
-      "pro":{
+      "membership":{
               "expires_date":"2029-05-26T05:05:04Z",
-              "product_identifier":"com.rk.horoscope.month12.full",
+              "product_identifier":"vsco_global_2999_annual_7D_free",
               "purchase_date":"2022-04-09T05:05:04Z"
       }
   },
   
 obj.subscriber.subscriptions ={
-      "com.rk.horoscope.month12.full":{
+      "vsco_global_2999_annual_7D_free":{
               "billing_issues_detected_at":null,
               "expires_date":"2029-05-26T05:05:04Z",
               "is_sandbox":false,
