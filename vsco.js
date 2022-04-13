@@ -1,11 +1,3 @@
-# QuanX
-# @Marol62926
-# [rewrite_local]
-# VSCO解锁vip
-# https://api.revenuecat.com/v1/receipts url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/vsco.js
-# [mitm]
-# hostname= api.revenuecat.com
-
 var body = $response.body;
 var obj = JSON.parse(body);
 
