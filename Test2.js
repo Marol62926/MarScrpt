@@ -2,14 +2,18 @@ var body = $response.body;
 var obj = JSON.parse(body); 
 
 obj = {
-  "subscription_apple" : {
-    "subscription_exp" : 1650095874,
-    "product_id" : "yt"
-  },
-  "subscription_google" : null,
-  "user_token_lifetime" : 86400,
-  "user" : null
+  "status": "success",
+  "timestamp": 1649841369,
+  "data": {
+    "is_vip": 1,
+    "is_av_vip": 1,
+    "vip_expire_time": 1870766006,
+    "av_vip_expire_time": 1870766006,
+    "month_card_expire_time": 1870766006,
+    "level": 5,
+  }
 }
+
 
 body = JSON.stringify(obj);
 $done(body);
