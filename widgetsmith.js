@@ -1,3 +1,12 @@
+# QuanX
+# @Marol62926
+# 注意事项:这个软件有点薛定谔，不成功就多重启几次，还是失败就重装
+# [rewrite_local]
+# Widgetsmith解锁Premium
+# https://api.revenuecat.com/v1/receipts url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/widgetsmith.js
+# [mitm]
+# hostname= api.revenuecat.com,buy.itunes.apple.com
+
 var body = $response.body; 
 var obj = JSON.parse(body); 
 
