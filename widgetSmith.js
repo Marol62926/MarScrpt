@@ -1,12 +1,3 @@
-# QuanX
-# @Marol62926
-# [rewrite_local]
-# Widgetsmith解锁Premium
-# https://api.revenuecat.com/v1/subscribers/* url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/testcat.js
-# ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/testcat.js
-# [mitm]
-# hostname= api.revenuecat.com,buy.itunes.apple.com
-
 var body = $response.body;
 var obj = JSON.parse(body);
 
