@@ -1,10 +1,3 @@
-# 圈X
-# [rewrite_local]
-# Live Wallpaper Maker 4k: Life解锁vip
-# ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/liveWallpaperMaker.js
-# [mitm]
-# hostname= buy.itunes.apple.com
-
 var body = $response.body; 
 var obj = JSON.parse(body); 
 
