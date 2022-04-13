@@ -7,12 +7,12 @@ obj = {
       "Premium": {
         "expires_date":"2023-05-26T05:05:04Z",
         "grace_period_expires_date": null,
-        "product_identifier": "PremiumMonthly",
+        "product_identifier": "PremiumAnnualWidget",
         "purchase_date":"2022-04-09T05:05:04Z"
       }
     },
     "subscriptions": {
-      "PremiumMonthly": {
+      "PremiumAnnualWidget": {
         "billing_issues_detected_at": null,
         "expires_date": "2023-05-26T05:05:04Z",
         "grace_period_expires_date": null,
