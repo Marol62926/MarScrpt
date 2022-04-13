@@ -1,0 +1,36 @@
+# QuanX
+# @Marol62926
+# 注意事项:这个软件有点薛定谔，不成功就多重启几次，还是失败就重装
+# [rewrite_local]
+# Watchsmith解锁Premium
+# https://api.revenuecat.com/v1/receipts url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/watchsmith.js
+# https://buy.itunes.apple.com/verifyReceipt url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/widgetsmith.js
+# [mitm]
+# hostname= api.revenuecat.com,buy.itunes.apple.com
+
+var body = $response.body;
+var obj = JSON.parse(body);
+
+obj.subscriber.entitlements = {
+      "Premium":{
+              "expires_date":"2029-05-26T05:05:04Z",
+              "product_identifier":"PremiumMonthly",
+              "purchase_date":"2022-04-09T05:05:04Z"
+      }
+  },
+  
+obj.subscriber.subscriptions ={
+      "PremiumMonthly":{
+              "billing_issues_detected_at":null,
+              "expires_date":"2029-05-26T05:05:04Z",
+              "is_sandbox":false,
+              "original_purchase_date":"2022-04-09T05:05:04Z",
+              "period_type":"trial",
+              "purchase_date":"2023-04-09T05:05:04Z",
+              "store":"app_store",
+              "unsubscribe_detected_at":null
+      }
+  }
+
+body = JSON.stringify(obj); 
+$done(body); 
