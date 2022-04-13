@@ -39,9 +39,9 @@ obj = {
       "original_purchase_date": "2021-11-25 17:07:48 Etc/GMT",
       "original_purchase_date_ms": "1637860068000",
       "original_purchase_date_pst": "2021-11-25 09:07:48 America/Los_Angeles",
-      "expires_date": "2099-09-09 17:07:45 Etc/GMT",
+      "expires_date": "2029-09-09 17:07:45 Etc/GMT",
       "expires_date_ms": "4092647115000",
-      "expires_date_pst": "2099-09-09 09:07:45 America/Los_Angeles",
+      "expires_date_pst": "2029-09-09 09:07:45 America/Los_Angeles",
       "web_order_line_item_id": "730000330755327",
       "is_trial_period": "false",
       "is_in_intro_offer_period": "false",
@@ -59,9 +59,9 @@ obj = {
     "original_purchase_date": "2021-11-25 17:07:48 Etc/GMT",
     "original_purchase_date_ms": "1637860068000",
     "original_purchase_date_pst": "2021-11-25 09:07:48 America/Los_Angeles",
-    "expires_date": "2099-09-09 17:07:45 Etc/GMT",
+    "expires_date": "2029-09-09 17:07:45 Etc/GMT",
     "expires_date_ms": "4092647115000",
-    "expires_date_pst": "2099-09-09 09:07:45 America/Los_Angeles",
+    "expires_date_pst": "2029-09-09 09:07:45 America/Los_Angeles",
     "web_order_line_item_id": "730000330755327",
     "is_trial_period": "false",
     "is_in_intro_offer_period": "false",
@@ -73,7 +73,7 @@ obj = {
     "auto_renew_product_id": "subscription.links.resume.6month",
     "product_id": "subscription.links.resume.6month",
     "original_transaction_id": "730000766600650",
-    "auto_renew_status": "1"
+    "auto_renew_status": "0"
   }],
   "status": 0
 }
