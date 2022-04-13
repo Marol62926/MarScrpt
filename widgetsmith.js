@@ -4,6 +4,7 @@
 # [rewrite_local]
 # Widgetsmith解锁Premium
 # https://api.revenuecat.com/v1/receipts url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/widgetsmith.js
+# https://buy.itunes.apple.com/verifyReceipt url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/widgetsmith.js
 # [mitm]
 # hostname= api.revenuecat.com,buy.itunes.apple.com
 
