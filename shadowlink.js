@@ -1,11 +1,3 @@
-# QuanX
-# @Marol62926
-# [rewrite_local]
-# 解锁 ShadowLink VPN Premium 
-# https://buy.itunes.apple.com/verifyReceipt url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/shadowlink.js
-# [mitm]
-# hostname= buy.itunes.apple.com
-
 var body = $response.body; 
 var obj = JSON.parse(body); 
 
