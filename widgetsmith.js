@@ -5,7 +5,7 @@ obj = {
   "subscriber": {
     "entitlements": {
       "Premium": {
-        "expires_date":"2023-05-26T05:05:04Z",
+        "expires_date":"2029-05-26T05:05:04Z",
         "grace_period_expires_date": null,
         "product_identifier": "PremiumAnnualWidget",
         "purchase_date":"2022-04-09T05:05:04Z"
@@ -14,7 +14,7 @@ obj = {
     "subscriptions": {
       "PremiumAnnualWidget": {
         "billing_issues_detected_at": null,
-        "expires_date": "2023-05-26T05:05:04Z",
+        "expires_date": "2029-05-26T05:05:04Z",
         "grace_period_expires_date": null,
         "is_sandbox": false,
         "original_purchase_date": "2022-04-12T12:54:03Z",
