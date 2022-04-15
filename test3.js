@@ -2,25 +2,37 @@ var body = $response.body;
 var obj = JSON.parse(body);
 
 obj = {
+  "id": "62585840b150440001941068",
+  "sid": "AYE631660",
+  "email": "",
+  "nickname": "Lee Marol",
+  "sex": 0,
+  "birthday": 0,
+  "email_verified": false,
+  "nation_code": "",
+  "phone_number": "",
+  "avatar": "",
+  "created_at": 1649956928,
+  "updated_at": 1649988156,
   "vip": {
     "expired_at": 1650592956,
     "created_at": 1649988156,
     "updated_at": 1649988156,
-    "is_lifetime_member": true,
+    "is_lifetime_member": false,
     "is_valid": true
   },
   "scene_pass": {
-    "expired_at": 1870913109,
-    "created_at": 1649988156,
-    "updated_at": 1649988156,
-    "is_lifetime_member": true,
-    "is_valid": true
+    "expired_at": 0,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_lifetime_member": false,
+    "is_valid": false
   },
   "reg_by_guest": false,
   "app_store_info": {
     "trial_started_at": 1649988156,
-    "trial_expired_at": 1870913109,
-    "auto_subscription_expired_at": 1870913109,
+    "trial_expired_at": 1650592952,
+    "auto_subscription_expired_at": 1650592952,
     "subscription_type": 1,
     "updated_at": 1649988156,
     "google_play_subscription_expired_at": 0
@@ -130,13 +142,15 @@ obj = {
     "mobile_number": ""
   },
   "apple_id": {
+    "sub": "001879.038906222f4a42cb974805f9cb48346a.1722",
+    "email": "fukr81@163.com",
+    "email_verified": "true",
     "iat": 0,
     "iss": "",
     "exp": 0,
     "auth_time": 0
   }
 }
-
 
 body = JSON.stringify(obj); 
 $done(body); 
