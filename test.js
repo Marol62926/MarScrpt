@@ -7,7 +7,7 @@ obj = {
     "receipt_type": "Production",
     "adam_id": 1091675654,
     "app_item_id": 1091675654,
-    "bundle_id": "com.shapr3d.shapr",
+    "bundle_id": "com.icandiapps.nightsky",
     "application_version": "3021",
     "download_id": 501314973695494431,
     "version_external_identifier": 848133062,
@@ -23,7 +23,7 @@ obj = {
     "original_application_version": "3021",
     "in_app": [{
       "quantity": "1",
-      "product_id": "com.shapr3d.shapr.iap.lite2.renewing.yearly",
+      "product_id": "",
       "transaction_id": "480001132112544",
       "original_transaction_id": "480001132112544",
       "purchase_date": "2022-04-15 07:41:32 Etc/GMT",
@@ -43,7 +43,7 @@ obj = {
   },
   "latest_receipt_info": [{
     "quantity": "1",
-    "product_id": "com.shapr3d.shapr.iap.lite2.renewing.yearly",
+    "product_id": "",
     "transaction_id": "480001132112544",
     "original_transaction_id": "480001132112544",
     "purchase_date": "2022-04-15 07:41:32 Etc/GMT",
@@ -63,8 +63,8 @@ obj = {
   }],
   "latest_receipt": "",
   "pending_renewal_info": [{
-    "auto_renew_product_id": "com.shapr3d.shapr.iap.lite2.renewing.yearly",
-    "product_id": "com.shapr3d.shapr.iap.lite2.renewing.yearly",
+    "auto_renew_product_id": "",
+    "product_id": "",
     "original_transaction_id": "480001132112544",
     "auto_renew_status": "1"
   }],
