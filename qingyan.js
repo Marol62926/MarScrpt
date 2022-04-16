@@ -1,3 +1,5 @@
+#https://commerce-api.faceu.mobi/commerce/v1/subscription/user_info url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/qingyan.js
+
 var body = $response.body; 
 var obj = JSON.parse(body); 
 
