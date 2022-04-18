@@ -1,16 +1,9 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj.result.now_vip.is_forever = true,
-obj.result.now_vip.is_vip = true,  
-obj.result.now_vip.expire_time = 1871093782,  
-  
-obj.result.yoga.is_vip = true,  
-obj.result.yoga.expire_time = 1871093782,
-  
-obj.result.excellent.is_vip = true,  
-obj.result.excellent.expire_time = 1871093782,    
-  
+obj.user_info.is_vip = 1,
+obj.user_info.is_svip = 1,
+obj.user_info.is_plus_buy = 1,
 
 body = JSON.stringify(obj); 
 $done(body); 
