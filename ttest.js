@@ -67,6 +67,7 @@ obj = {
     "original_transaction_id": "730000766600650",
     "auto_renew_status": "1"
   }],
+  "environment": "Production",
   "status": 0
 }
 
