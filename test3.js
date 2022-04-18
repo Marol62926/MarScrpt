@@ -45,7 +45,7 @@ obj = {
   "currenttime": 1650250123,
   "reminder": {
     "svip": {
-      "leftseconds": 652276,
+      "leftseconds": 65227600,
       "nextState": "normal"
     },
     "reminderWithContent": [],
