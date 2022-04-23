@@ -6,7 +6,7 @@ obj = {
     "receipt_type": "Production",
     "adam_id": 1569291816,
     "app_item_id": 1569291816,
-    "bundle_id": "com.skollabs.wallpaper",
+    "bundle_id": "com.roundcherryapps.vpnTor",
     "application_version": "40",
     "download_id": 500935934584949171,
     "version_external_identifier": 846821007,
