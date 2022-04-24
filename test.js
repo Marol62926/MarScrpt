@@ -7,7 +7,7 @@ obj = {
     "receipt_type": "Production",
     "adam_id": 1320373866,
     "app_item_id": 1320373866,
-    "bundle_id": "com.vpn.proxyapp",
+    "bundle_id": "com.debotoshdey.vpnproxy",
     "application_version": "2.45.1",
     "download_id": 501342259445453403,
     "version_external_identifier": 846992957,
