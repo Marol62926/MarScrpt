@@ -2,15 +2,15 @@ var body = $response.body;
 var obj = JSON.parse(body);
 
 obj.subscriber.entitlements = {
-      "Premium":{
+      "pro":{
               "expires_date":"2029-05-26T05:05:04Z",
-              "product_identifier":"com.monkeytaps.iam.premium.year",
+              "product_identifier":"vpn.vpn.vpn.proxy.express.12months",
               "purchase_date":"2022-04-09T05:05:04Z"
       }
   },
   
 obj.subscriber.subscriptions ={
-      "com.monkeytaps.iam.premium.year":{
+      "vpn.vpn.vpn.proxy.express.12months":{
               "billing_issues_detected_at":null,
               "expires_date":"2029-05-26T05:05:04Z",
               "is_sandbox":false,
