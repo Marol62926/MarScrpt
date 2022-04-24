@@ -7,7 +7,7 @@ obj = {
     "receipt_type": "Production",
     "adam_id": 1450809061,
     "app_item_id": 1450809061,
-    "bundle_id": "com.roundcherryapps.vpnTor",
+    "bundle_id": "com.ilbsoft.irelax",
     "application_version": "1.0",
     "download_id": 501340822250381797,
     "version_external_identifier": 848524543,
@@ -23,7 +23,7 @@ obj = {
     "original_application_version": "1.0",
     "in_app": [{
       "quantity": "1",
-      "product_id": "com.roundcherryapps.torvpn.monthly",
+      "product_id": "",
       "transaction_id": "190001273718793",
       "original_transaction_id": "190001273718793",
       "purchase_date": "2022-04-23 19:41:28 Etc/GMT",
@@ -43,7 +43,7 @@ obj = {
   },
   "latest_receipt_info": [{
     "quantity": "1",
-    "product_id": "com.roundcherryapps.torvpn.monthly",
+    "product_id": "",
     "transaction_id": "190001273718793",
     "original_transaction_id": "190001273718793",
     "purchase_date": "2022-04-23 19:41:28 Etc/GMT",
@@ -63,8 +63,8 @@ obj = {
   }],
   "latest_receipt": "",
   "pending_renewal_info": [{
-    "auto_renew_product_id": "com.roundcherryapps.torvpn.monthly",
-    "product_id": "com.roundcherryapps.torvpn.monthly",
+    "auto_renew_product_id": "",
+    "product_id": "",
     "original_transaction_id": "190001273718793",
     "auto_renew_status": "1"
   }],
