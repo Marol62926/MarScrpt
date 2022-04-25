@@ -1,7 +1,7 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj.data = {
+obj = {
   "valid": "True",
   "expiresDate": "1/1/2029 12:00:00 AM",
   "original_transaction_id": "586838987",
