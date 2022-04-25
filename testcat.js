@@ -1,26 +1,21 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj.subscriber.entitlements = {
-      "pro":{
-              "expires_date":"2029-05-26T05:05:04Z",
-              "product_identifier":"vpn.vpn.vpn.proxy.express.12months",
-              "purchase_date":"2022-04-09T05:05:04Z"
-      }
-  },
-  
-obj.subscriber.subscriptions ={
-      "vpn.vpn.vpn.proxy.express.12months":{
-              "billing_issues_detected_at":null,
-              "expires_date":"2029-05-26T05:05:04Z",
-              "is_sandbox":false,
-              "original_purchase_date":"2022-04-09T05:05:04Z",
-              "period_type":"trial",
-              "purchase_date":"2023-04-09T05:05:04Z",
-              "store":"app_store",
-              "unsubscribe_detected_at":null
-      }
-  }
+obj = [{
+  "id": "con_S1wg71z2bWnVtm",
+  "referenceId": "unfold_JLQ4nTNHunnF5RXCGbHfQc",
+  "memberAccount": "",
+  "contractType": "SUBSCRIPTION",
+  "contractStatus": "TRIAL",
+  "productType": "UNFOLD",
+  "originalPurchaseDate": 1650872760,
+  "endsOn": 1871798227,
+  "estimatedGracePeriodEndsOn": 1871798227,
+  "autoRenew": true,
+  "productId": "prod_SwGgr9yFhw0QGu",
+  "compedAccount": false,
+  "tier": "NA"
+}]
 
 body = JSON.stringify(obj); 
 $done(body); 
