@@ -1,9 +1,7 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj = {
-  "data": {
-    "app_receipt": {
+obj.data.app_receipt = {
       "verified_at": "2022-04-25T11:02:19+00:00",
       "intro_offer_used_product_ids": ["com.cardinalblue.PicCollage.subscription.annual.promotion"],
       "pending_renewal_info": {
@@ -31,8 +29,6 @@ obj = {
       },
       "is_free_trial_eligible": false
     }
-  }
-}
 
 body = JSON.stringify(obj); 
 $done(body); 
