@@ -2,8 +2,8 @@ var body = $response.body;
 var obj = JSON.parse(body);
 
 obj = [{
-  "id": "con_S1wg71z2bWnVtm",
-  "referenceId": "unfold_JLQ4nTNHunnF5RXCGbHfQc",
+  "id": "",
+  "referenceId": "",
   "memberAccount": "",
   "contractType": "SUBSCRIPTION",
   "contractStatus": "TRIAL",
