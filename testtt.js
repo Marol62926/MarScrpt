@@ -2,10 +2,10 @@ var body = $response.body;
 var obj = JSON.parse(body);
 
 obj = {
-  "user_id": 629260,
+  "user_id": 17922985,
   "subscription_id": 2323657,
   "is_active": true,
-  "is_lifetime": true,
+  "is_lifetime": false,
   "expires_at": "2022-05-09 16:52:39",
   "extra_days": 0,
   "promo_codes": {
@@ -41,8 +41,8 @@ obj = {
     "is_paying_platform": true,
     "expires_at": "2022-05-09 16:52:39",
     "renewal_date": "2022-05-09 16:52:39",
-    "is_lifetime": true,
-    "is_in_free_trial_period": false,
+    "is_lifetime": false,
+    "is_in_free_trial_period": true,
     "is_auto_renewable": true,
     "is_auto_renew_stopped": false,
     "recurring_payment_can_be_stop": false
