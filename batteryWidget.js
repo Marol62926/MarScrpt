@@ -23,7 +23,7 @@ obj = {
     "original_application_version": "3",
     "in_app": [{
       "quantity": "1",
-      "product_id": "co.vulcanlabs.batterywidget.weekly",
+      "product_id": "co.vulcanlabs.batterywidget.lifetime",
       "transaction_id": "190001276009392",
       "original_transaction_id": "190001276009392",
       "purchase_date": "2022-04-26 17:03:58 Etc/GMT",
@@ -43,7 +43,7 @@ obj = {
   },
   "latest_receipt_info": [{
     "quantity": "1",
-    "product_id": "co.vulcanlabs.batterywidget.weekly",
+    "product_id": "co.vulcanlabs.batterywidget.lifetime",
     "transaction_id": "190001276009392",
     "original_transaction_id": "190001276009392",
     "purchase_date": "2022-04-26 17:03:58 Etc/GMT",
@@ -63,8 +63,8 @@ obj = {
   }],
   "latest_receipt": "",
   "pending_renewal_info": [{
-    "auto_renew_product_id": "co.vulcanlabs.batterywidget.weekly",
-    "product_id": "co.vulcanlabs.batterywidget.weekly",
+    "auto_renew_product_id": "co.vulcanlabs.batterywidget.lifetime",
+    "product_id": "co.vulcanlabs.batterywidget.lifetime",
     "original_transaction_id": "190001276009392",
     "auto_renew_status": "1"
   }],
