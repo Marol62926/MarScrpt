@@ -1,26 +1,12 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj = {
-  "items" : [
-    {
-      "location" : "us",
-      "locked" : false,
-      "apps" : {
-        "dashboard" : {
-          "options" : {
-
-          }
-        }
-      },
-      "active" : true,
-      "lastLogin" : "04-28-2022 06:39:18",
-      "subscription" : {
+obj.items.subscription = {
         "subscriptionProviderIdentifer" : "plan_EtfoszqUYRUMWu",
         "paymentPortal" : "Stripe",
         "previousPaymentPortal" : "Stripe",
         "pendingSubscription" : null,
-        "id" : ,
+        "id" : 54853953,
         "subscriptionRegion" : "US",
         "isTrialEligible" : false,
         "isTrialPeriod" : false,
@@ -97,63 +83,6 @@ obj = {
         "subscriptionRegionPrice" : null,
         "subscriptionDescription" : "US_Premium_Annual"
       },
-      "addons" : [
-
-      ],
-      "lastLoginLocal" : "2022-04-28 06:39:18 UTC +0000",
-      "displayName" : "62926",
-      "notifications" : {
-
-      },
-      "background" : null,
-      "defaultLanguage" : "en",
-      "entitlements" : [
-
-      ],
-      "verified" : true,
-      "adminAccess" : false,
-      "id" : 50466641,
-      "state" : "active",
-      "email" : "62926@62926.com",
-      "groups" : {
-        "role" : {
-          "exclusive" : true,
-          "id" : 4,
-          "key" : "role",
-          "name" : "Consumers"
-        },
-        "groups" : [
-
-        ]
-      },
-      "userPreferences" : {
-        "showUserState" : "1",
-        "showConnection" : "1"
-      },
-      "cards" : [
-
-      ],
-      "firstName" : "",
-      "profileData" : {
-        "qualityPreference" : "auto",
-        "region" : "US",
-        "enableSubtitles" : "true",
-        "isTrialPeriod" : "false",
-        "paymentPortal" : "Stripe",
-        "restrictMatureContent" : "false",
-        "autoPlay" : "true",
-        "lastPasswordUpdate" : "1644609562",
-        "audioPreference" : "japanese"
-      },
-      "avatar" : "https://derf9v1xhwwx1.cloudfront.net/image/upload/q_60/cste/64dc3a8e-e63e-403d-b5a6-1708a70e65af.jpeg",
-      "lastName" : "",
-      "thirdPartyCookies" : [
-
-      ],
-      "dateJoined" : "10-24-2021 18:01:02"
-    }
-  ]
-}
 
 body = JSON.stringify(obj); 
 $done(body); 
