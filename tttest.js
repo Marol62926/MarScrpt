@@ -1,7 +1,7 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj.items.subscription = {
+obj.subscription = {
         "subscriptionProviderIdentifer" : "plan_EtfoszqUYRUMWu",
         "paymentPortal" : "Stripe",
         "previousPaymentPortal" : "Stripe",
