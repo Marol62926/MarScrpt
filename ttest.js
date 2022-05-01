@@ -1,0 +1,75 @@
+var body = $response.body;
+var obj = JSON.parse(body);
+
+obj = {
+  "environment": "Production",
+  "receipt": {
+    "receipt_type": "Production",
+    "adam_id": 839285684,
+    "app_item_id": 839285684,
+    "bundle_id": "com.oneothergame.7min-fitness",
+    "application_version": "5.11.0.2",
+    "download_id": 501362330577209841,
+    "version_external_identifier": 848489264,
+    "receipt_creation_date": "2022-05-01 16:48:56 Etc/GMT",
+    "receipt_creation_date_ms": "1651423736000",
+    "receipt_creation_date_pst": "2022-05-01 09:48:56 America/Los_Angeles",
+    "request_date": "2022-05-01 16:49:42 Etc/GMT",
+    "request_date_ms": "1651423782098",
+    "request_date_pst": "2022-05-01 09:49:42 America/Los_Angeles",
+    "original_purchase_date": "2022-05-01 09:39:00 Etc/GMT",
+    "original_purchase_date_ms": "1651397940000",
+    "original_purchase_date_pst": "2022-05-01 02:39:00 America/Los_Angeles",
+    "original_application_version": "5.11.0.2",
+    "in_app": [{
+      "quantity": "1",
+      "product_id": "com.oneothergame.7min_fitness.supporter_yearly_02",
+      "transaction_id": "190001280441907",
+      "original_transaction_id": "190001280441907",
+      "purchase_date": "2022-05-01 16:46:30 Etc/GMT",
+      "purchase_date_ms": "1651423590000",
+      "purchase_date_pst": "2022-05-01 09:46:30 America/Los_Angeles",
+      "original_purchase_date": "2022-05-01 16:46:30 Etc/GMT",
+      "original_purchase_date_ms": "1651423590000",
+      "original_purchase_date_pst": "2022-05-01 09:46:30 America/Los_Angeles",
+      "expires_date": "2029-04-26 17:54:33 Etc/GMT",
+      "expires_date_ms": "1871891673000",
+      "expires_date_pst": "2029-04-26 10:54:33 America/Los_Angeles",
+      "web_order_line_item_id": "190000556062895",
+      "is_trial_period": "true",
+      "is_in_intro_offer_period": "false",
+      "in_app_ownership_type": "PURCHASED"
+    }]
+  },
+  "latest_receipt_info": [{
+    "quantity": "1",
+    "product_id": "com.oneothergame.7min_fitness.supporter_yearly_02",
+    "transaction_id": "190001280441907",
+    "original_transaction_id": "190001280441907",
+    "purchase_date": "2022-05-01 16:46:30 Etc/GMT",
+    "purchase_date_ms": "1651423590000",
+    "purchase_date_pst": "2022-05-01 09:46:30 America/Los_Angeles",
+    "original_purchase_date": "2022-05-01 16:46:30 Etc/GMT",
+    "original_purchase_date_ms": "1651423590000",
+    "original_purchase_date_pst": "2022-05-01 09:46:30 America/Los_Angeles",
+    "expires_date": "2029-04-26 17:54:33 Etc/GMT",
+    "expires_date_ms": "1871891673000",
+    "expires_date_pst": "2029-04-26 10:54:33 America/Los_Angeles",
+    "web_order_line_item_id": "190000556062895",
+    "is_trial_period": "true",
+    "is_in_intro_offer_period": "false",
+    "in_app_ownership_type": "PURCHASED",
+    "subscription_group_identifier": "20506528"
+  }],
+  "latest_receipt": "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",
+  "pending_renewal_info": [{
+    "auto_renew_product_id": "com.oneothergame.7min_fitness.supporter_yearly_02",
+    "product_id": "com.oneothergame.7min_fitness.supporter_yearly_02",
+    "original_transaction_id": "190001280441907",
+    "auto_renew_status": "1"
+  }],
+  "status": 0
+}
+
+body = JSON.stringify(obj); 
+$done(body); 
