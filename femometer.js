@@ -2,7 +2,7 @@ var body = $response.body;
 var obj = JSON.parse(body);
 
 obj = {
-  "userId": ,
+  "userId": 9999999,
   "appFlag": 1,
   "productId": "com.btang.thermometer.prime2.free_trial_yearly_CNA",
   "status": 1,
