@@ -5,13 +5,13 @@ obj.subscriber.entitlements = {
       "Premium": {
         "expires_date": "2029-05-04T16:32:33Z",
         "grace_period_expires_date": null,
-        "product_identifier": "PremiumMonthly",
+        "product_identifier": "com.lbrc.PeriodCalendar.premium.yearly",
         "purchase_date": "2022-05-01T16:32:33Z"
       }
   },
   
 obj.subscriber.subscriptions ={
-      "PremiumMonthly": {
+      "com.lbrc.PeriodCalendar.premium.yearly": {
         "billing_issues_detected_at": null,
         "expires_date": "2029-05-08T15:24:07Z",
         "grace_period_expires_date": null,
