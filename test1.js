@@ -1,25 +1,11 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj.subscriber.entitlements = {
-      "Premium":{
-              "expires_date":"2029-05-26T05:05:04Z",
-              "product_identifier":"inapp.faladdin.premium_12",
-              "purchase_date":"2022-04-09T05:05:04Z"
-      }
-  },
-  
-obj.subscriber.subscriptions ={
-      "inapp.faladdin.premium_12":{
-              "billing_issues_detected_at":null,
-              "expires_date":"2029-05-26T05:05:04Z",
-              "is_sandbox":false,
-              "original_purchase_date":"2022-04-09T05:05:04Z",
-              "period_type":"trial",
-              "purchase_date":"2022-04-09T05:05:04Z",
-              "store":"app_store",
-              "unsubscribe_detected_at":null
-      }
+obj.data = {
+    "expiresDateMs": "1872518379000",
+    "autoRenewStatus": "1",
+    "isTrialed": "0",
+    "skuId": "subscription_yearly"
   }
 
 body = JSON.stringify(obj); 
