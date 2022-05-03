@@ -1,10 +1,26 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj.subscription_info = {
-    "is_auto_renew": "ios_newsstand",
-    "valid_to": 1652169184
+obj.subscriber.entitlements = {
+      "Premium":{
+              "expires_date":"2029-05-26T05:05:04Z",
+              "product_identifier":"inapp.faladdin.premium_12",
+              "purchase_date":"2022-04-09T05:05:04Z"
+      }
   },
+  
+obj.subscriber.subscriptions ={
+      "inapp.faladdin.premium_12":{
+              "billing_issues_detected_at":null,
+              "expires_date":"2029-05-26T05:05:04Z",
+              "is_sandbox":false,
+              "original_purchase_date":"2022-04-09T05:05:04Z",
+              "period_type":"trial",
+              "purchase_date":"2022-04-09T05:05:04Z",
+              "store":"app_store",
+              "unsubscribe_detected_at":null
+      }
+  }
 
 body = JSON.stringify(obj); 
 $done(body); 
