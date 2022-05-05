@@ -6,21 +6,21 @@ obj = {
     "subscription_name": "AcrobatPlus",
     "subscription_level": "Plus",
     "subscription_state": "ACTIVE",
-    "sub_ref": "",
+    "sub_ref": "F9321292BD8EBB630BBA",
     "biz_source": "CCC",
     "billing_term": null
   }, {
     "subscription_name": "ESign",
     "subscription_level": "Basic",
     "subscription_state": "ACTIVE",
-    "sub_ref": "",
+    "sub_ref": "F9321292BD8EBB630BBA",
     "biz_source": "CCC",
     "billing_term": null
   }, {
     "subscription_name": "CreatePDF",
     "subscription_level": "Basic",
     "subscription_state": "ACTIVE",
-    "sub_ref": "",
+    "sub_ref": "F9321292BD8EBB630BBA",
     "biz_source": "CCC",
     "billing_term": null
   }]
