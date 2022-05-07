@@ -1,9 +1,38 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj.mobileProfile.profileStatus = "PROFILE_AVAILABLE",
-obj.mobileProfile.legacyProfile = "{\"licenseId\":\"TEMP_LICENSE_PROD\",\"licenseType\":3,\"licenseVersion\":\"91.0\",\"effectiveEndTimestamp\":1651851743360,\"graceTime\":0,\"licensedFeatures\":[],\"enigmaData\":{\"productId\":118,\"serialKey\":\"719594172484074650698776\",\"clearSerialKey\":\"90970938077827684226\",\"locale\":\"ALL\",\"associatedLocales\":\"ALL\",\"platform\":0,\"isk\":1184999,\"customerId\":0,\"deliveryMethod\":3,\"pc\":false,\"rb\":false}}",
-obj.mobileProfile.relationshipProfile = "[{\"profileGenerationTimestamp\":1651765366490,\"licenseId\":\"TEMP_LICENSE_PROD\",\"licenseExpiryTimestamp\":1651851743360,\"appEntitlementStatus\":\"SUBSCRIPTION\",\"activationType\":\"NAMED_USER\",\"billingStatus\":\"NORMAL\",\"usedForLegacyProfile\":true,\"licenseExpiryWarningControl\":{\"warningStartTimestamp\":1651246943360,\"warningInterval\":0}}]",
+obj = {
+  "random" : 9453,
+  "remainCount" : 6666,
+  "payingRemainTime" : 11116,
+  "day" : 91,
+  "remainTime" : 99306196,
+  "signature" : "80983bb9278bc8a7780a288b63fe5fe40994e945d0de99a4183dcef0fa17109d",
+  "isAutoRenewable" : 1,
+  "permanent" : 1,
+  "expired" : 0,
+  "historyAutoRenewable" : 1,
+  "autoRenewableChannel" : 6,
+  "isPaying" : 1,
+  "autoRenewableTime" : 6,
+  "totalFreeReadDay" : 6666,
+  "expiredTime" : 1872518379,
+  "timestamp" : 1651904842,
+  "canUseDiscount" : 0,
+  "savedMoney" : 9927433,
+  "autoRenewablePrice" : 991900,
+  "remainCoupon" : 6666,
+  "startTime" : 1651904966,
+  "hintsForRecharge" : {
+    "buttonSubtitle" : "你正在使用免费无限卡 · 升级付费无限卡即可阅读",
+    "predictedSavedMoney" : 9910315,
+    "predictedChapterPrice" : 15,
+    "sendCoupons" : 6666,
+    "buttonTitle" : "付费无限卡9元/月 · 限时特惠",
+    "pricePerMonth" : 99900
+  }
+}
+
   
 body = JSON.stringify(obj); 
 $done(body); 
