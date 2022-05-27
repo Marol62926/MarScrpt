@@ -1,12 +1,7 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj = {
-  "status" : {
-    "message" : "OK",
-    "code" : 0
-  },
-  "result" : {
+obj.result = {
     "id" : 576620529,
     "state" : "trialing",
     "limited_validity" : null,
@@ -28,7 +23,6 @@ obj = {
     "product_handle" : "com.scribd.premium.monthly.unlimited.14_day_trial",
     "subscription_duration" : "1.month"
   }
-}
   
 body = JSON.stringify(obj); 
 $done(body); 
