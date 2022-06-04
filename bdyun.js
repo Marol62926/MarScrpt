@@ -79,5 +79,5 @@ obj = {
   "request_id": 186237459030834025
 }
 
-body = JSON.stringify(obj); 
-$done(body); 
+body = JSON.stringify(obj);
+$done({body});
