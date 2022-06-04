@@ -13,5 +13,5 @@ http:
       
 script-providers:
   ColorWidget:
-    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/colorwidget.js
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/test2.js
     interval:  86400
