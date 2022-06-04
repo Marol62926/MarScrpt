@@ -1,5 +1,0 @@
-[Mitm]
-hostname = api.revenuecat.com
-
-[Script]
-http-request https:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/* requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/colorwidget.js,tag=ColorWidget
