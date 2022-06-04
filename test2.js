@@ -1,20 +1,24 @@
-var body = $response.body;
-var obj = JSON.parse(body);
+let obj = JSON.parse($response.body)
 
-obj.result.membership_info = {
-      "status" : "trial",
-      "resume_date" : null,
-      "credit_cache_bust" : "de2f49c49b1668579591311e951bfcff",
-      "bill_date" : 1654885689,
-      "pays_additional_tax" : true,
-      "has_pmp_access" : true,
-      "end_date" : null,
-      "bill_method" : "apple",
-      "next_bill_price" : {
-        "value" : 8.9900000000000002,
-        "currency" : "USD"
+obj.subscriber.entitlements = {
+      "pro":{
+              "expires_date":"2029-05-26T05:05:04Z",
+              "product_identifier":"cw_1999_ly_3d0",
+              "purchase_date":"2022-04-09T05:05:04Z"
       }
-    },
-
-body = JSON.stringify(obj); 
-$done(body); 
+  },
+  
+obj.subscriber.subscriptions ={
+      "cw_1999_ly_3d0":{
+              "billing_issues_detected_at":null,
+              "expires_date":"2029-05-26T05:05:04Z",
+              "is_sandbox":false,
+              "original_purchase_date":"2022-04-09T05:05:04Z",
+              "period_type":"trial",
+              "purchase_date":"2022-04-09T05:05:04Z",
+              "store":"app_store",
+              "unsubscribe_detected_at":null
+      }
+  }
+      
+$done({obj:JSON.stringify(body)})
