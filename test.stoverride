@@ -5,7 +5,7 @@ http:
   mitm:
     - "api.revenuecat.com"
   script:
-    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/receipts
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/*
       name: ColorWidget
       type: response
       require-body: true
