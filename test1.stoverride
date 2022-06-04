@@ -5,8 +5,8 @@ http:
   mitm:
     - "api.revenuecat.com"
   script:
-    - match: https://api.revenuecat.com/v1/receipts
-      name: notability
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/receipts
+      name: ColorWidget
       type: response
       require-body: true
       timeout: 10
