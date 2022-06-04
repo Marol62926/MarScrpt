@@ -1,5 +1,4 @@
-var body = $response.body;
-var obj = JSON.parse(body);
+var obj = JSON.parse($response.body);
 
 obj.subscriber.entitlements = {
       "pro":{
@@ -22,5 +21,4 @@ obj.subscriber.subscriptions ={
       }
   }
 
-body = JSON.stringify(obj); 
-$done({body});
+$done({body: JSON.stringify(obj)});
