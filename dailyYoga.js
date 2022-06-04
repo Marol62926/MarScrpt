@@ -54,4 +54,4 @@ obj.result.specialRight = {
   
 
 body = JSON.stringify(obj); 
-$done(body); 
+$done({body});
