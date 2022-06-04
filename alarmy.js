@@ -12,5 +12,5 @@ obj.subscription = [{
     "originalPurchaseDateMs": 1651590191000
   }],
 
-body = JSON.stringify(obj); 
-$done(body); 
+body = JSON.stringify(obj);
+$done({body});
