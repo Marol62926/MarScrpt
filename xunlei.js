@@ -16,5 +16,5 @@ obj.vipList = [{
     "vipLevel": "7"
   }]
 
-body = JSON.stringify(obj); 
-$done(body); 
+body = JSON.stringify(obj);
+$done({body});
