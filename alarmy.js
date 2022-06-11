@@ -1,5 +1,4 @@
-var body = $response.body;
-var obj = JSON.parse(body);
+let obj = JSON.parse($response.body);
 
 obj.subscription = [{
     "originalTransactionID": "",
@@ -12,5 +11,4 @@ obj.subscription = [{
     "originalPurchaseDateMs": 1651590191000
   }],
 
-body = JSON.stringify(obj);
-$done({body});
+$done({body: JSON.stringify(obj)});
