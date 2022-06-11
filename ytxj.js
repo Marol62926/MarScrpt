@@ -37,7 +37,5 @@ obj =
   "serverTm" : 1649149331293
 }
 
-
-
-body = JSON.stringify(obj); 
-$done(body); 
+body = JSON.stringify(obj);
+$done({body});
