@@ -18,7 +18,7 @@ obj.subscriber.subscriptions ={
         "is_sandbox": false,
         "original_purchase_date": "2022-06-11T13:54:34Z",
         "ownership_type": "PURCHASED",
-        "period_type": "trial",
+        "period_type": "normal",
         "purchase_date": "2022-06-11T13:54:33Z",
         "store": "app_store",
         "unsubscribe_detected_at": null
