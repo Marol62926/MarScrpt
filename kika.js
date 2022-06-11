@@ -6,5 +6,5 @@ obj.data = {
     "vip": 1
   }
 
-body = JSON.stringify(obj); 
-$done(body); 
+body = JSON.stringify(obj);
+$done({body});
