@@ -14,7 +14,7 @@ obj.subscriber.subscriptions ={
               "expires_date":"2029-05-26T05:05:04Z",
               "is_sandbox":false,
               "original_purchase_date":"2022-04-09T05:05:04Z",
-              "period_type":"trial",
+              "period_type":"normal",
               "purchase_date":"2022-04-09T05:05:04Z",
               "store":"app_store",
               "unsubscribe_detected_at":null
