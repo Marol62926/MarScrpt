@@ -15,6 +15,6 @@ obj = {
   "usedTrial": ["com.accuweather.annual.subscription"],
   "usedIntro": null,
   "isRetryable": null
-}
+};
   
 $done({body: JSON.stringify(obj)});
