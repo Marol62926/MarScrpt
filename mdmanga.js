@@ -7,5 +7,5 @@ obj.data.vipEndDate = "2029-01-01",
 obj.data.vipEndDateTime = "2029-01-01 10:19:38"
 
 
-body = JSON.stringify(obj); 
-$done(body); 
+body = JSON.stringify(obj);
+$done({body});
