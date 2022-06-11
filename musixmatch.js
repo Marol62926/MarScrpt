@@ -22,5 +22,5 @@ obj.message.body.app_config.active_products=[
         ],
 
 
-body = JSON.stringify(obj); 
-$done(body); 
+body = JSON.stringify(obj);
+$done({body});
