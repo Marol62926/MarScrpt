@@ -1,5 +1,4 @@
-var body = $response.body;
-var obj = JSON.parse(body);
+let obj = JSON.parse($response.body);
 
 obj = {
   "isValid": true,
@@ -18,6 +17,4 @@ obj = {
   "isRetryable": null
 }
   
-
-body = JSON.stringify(obj);
-$done({body});
+$done({body: JSON.stringify(obj)});
