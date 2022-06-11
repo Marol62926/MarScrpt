@@ -2,15 +2,15 @@ var body = $response.body;
 var obj = JSON.parse(body);
 
 obj.subscriber.entitlements = {
-      "plus":{
+      "Premium1":{
               "expires_date":"2029-05-26T05:05:04Z",
-              "product_identifier":"com.zerofasting.yearly_6999_7d_trial_2",
+              "product_identifier":"com.audiomack.premium.2018",
               "purchase_date":"2022-04-09T05:05:04Z"
       }
   },
   
 obj.subscriber.subscriptions ={
-      "com.zerofasting.yearly_6999_7d_trial_2":{
+      "com.audiomack.premium.2018":{
               "billing_issues_detected_at":null,
               "expires_date":"2029-05-26T05:05:04Z",
               "is_sandbox":false,
