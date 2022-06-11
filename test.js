@@ -1,7 +1,7 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj["subscription"] = {
+obj.subscription = {
     "state" : "PAYING",
     "tierName" : "",
     "catalog" : "105",
