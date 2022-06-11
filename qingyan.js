@@ -11,5 +11,5 @@ obj.data.flag = true,
  
 
 body = JSON.stringify(obj);
-$done(body);
+$done({body});
 
