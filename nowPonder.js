@@ -12,5 +12,5 @@ obj.result.excellent.is_vip = true,
 obj.result.excellent.expire_time = 1871093782,    
   
 
-body = JSON.stringify(obj); 
-$done(body); 
+body = JSON.stringify(obj);
+$done({body});
