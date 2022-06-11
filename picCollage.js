@@ -30,5 +30,5 @@ obj.data.app_receipt = {
       "is_free_trial_eligible": false
     }
 
-body = JSON.stringify(obj); 
-$done(body); 
+body = JSON.stringify(obj);
+$done({body});
