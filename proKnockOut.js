@@ -71,5 +71,5 @@ obj = {
   "status": 0
 }
   
-body = JSON.stringify(obj); 
-$done(body); 
+body = JSON.stringify(obj);
+$done({body});
