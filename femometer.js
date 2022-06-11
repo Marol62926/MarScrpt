@@ -30,5 +30,5 @@ obj = {
   "period": 3
 }
 
-body = JSON.stringify(obj); 
-$done(body); 
+body = JSON.stringify(obj);
+$done({body});
