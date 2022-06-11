@@ -7,5 +7,5 @@ obj = {
   "is_member": true,
 }
 
-body = JSON.stringify(obj); 
-$done(body);
+body = JSON.stringify(obj);
+$done({body});
