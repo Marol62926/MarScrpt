@@ -7,4 +7,4 @@ obj.data.vipState.startTime = 1650099394000,
 obj.data.vipState.expireTime = 1871024163000
 
 body = JSON.stringify(obj);
-$done(body);
+$done({body});
