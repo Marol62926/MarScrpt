@@ -1,6 +1,6 @@
 var obj = JSON.parse($response.body);
 
-obj.subscriber.entitlements = {
+obj["subscriber"]["entitlements"] = {
       "pro":{
               "expires_date":"2029-05-26T05:05:04Z",
               "product_identifier":"cw_1999_ly_3d0",
@@ -8,7 +8,7 @@ obj.subscriber.entitlements = {
       }
   },
   
-obj.subscriber.subscriptions ={
+obj["subscriber"]["subscriptions"] ={
       "cw_1999_ly_3d0":{
               "billing_issues_detected_at":null,
               "expires_date":"2029-05-26T05:05:04Z",
