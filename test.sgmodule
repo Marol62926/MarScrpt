@@ -1,6 +1,0 @@
-[Script]
-# >notability
-color = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/colorwidget.js,type=http-response,pattern=https://api.revenuecat.com/v1/(receipts|subscribers)/*
-color = type=http-response,pattern=https://api.revenuecat.com/v1/(receipts|subscribers)/*,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/colorwidget.js,requires-body=1,max-size=0,script-path=https://gitee.com/jexxagn/quan-x/raw/master/rewrite/caiyun_svip.js
-[MITM]
-hostname = api.revenuecat.com
