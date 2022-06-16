@@ -5,7 +5,7 @@ obj = {
   "latestSubscriptionReceipts": [{
     "lastRefreshDateMs": 1655361934442,
     "authToken": "",
-    "productId": "com.andyworks.weather.yearlyBeliever",
+    "productId": "com.andyworks.weather.yearlyPatron",
     "groupId": "20717154",
     "expiresDateMs": 1876286918000,
     "purchaseDateMs": 1655361843000,
@@ -17,7 +17,7 @@ obj = {
     "sourceBundleId": "com.andyworks.weather",
     "expirationIntent": "",
     "autoRenewStatus": "1",
-    "autoRenewProductId": "com.andyworks.weather.yearlyBeliever",
+    "autoRenewProductId": "com.andyworks.weather.yearlyPatron",
     "isInBillingRetryPeriod": false
   }]
 }
