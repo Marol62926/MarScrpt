@@ -2,7 +2,7 @@
 //^https:\/\/app\.bilibili\.com\/(search\/resource|x\/(resource\/show\/tab|v2\/(view|rank|feed|reply\/main|account\/mine))) url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/bilibili.js
 
 const up_blacklist = ['NathanRich火锅大王','大祥哥来了','共青团中央','猛男舞团IconX','记录生活的蛋黄派','力原君','宝剑嫂','雨哥到处跑','啊吗粽','枪弹轨迹','徐大虾咯','盗月社食遇记','老师好我叫何同学','老番茄','敬汉卿','纳豆奶奶','吃花椒的喵酱','央视频','央视新闻','人民网','人民日报'];
-const title_blackwords = ['乔碧萝','鸡你太美','焯','共青团','一个赞','小学生','新人up','反正没人看','王冰冰','刘浩存','谷爱凌','怒批','吃花椒的喵酱','央视频','央视新闻','人民网','人民日报','何同学','央媒','怒批','狠批'];
+const title_blackwords = ['乔碧萝','鸡你太美','焯','共青团','一个赞','小学生','新人up','反正没人看','王冰冰','刘浩存','谷爱凌','怒批','吃花椒的喵酱','央视频','央视新闻','人民网','人民日报','何同学','央媒','怒批','狠批','赵立坚','外交部'];
 const region_blacklist = ['宅舞','三次元舞蹈'];
 let body = $response.body;
 console.log($request.url)
