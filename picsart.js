@@ -8,12 +8,12 @@ obj = {
     "is_trial": false,
     "order_id": "",
     "plan_meta": {
-      "id": "com.picsart.studio.subscription_plus_yearly",
+      "id": "com.picsart.studio.subscription_pro_yearly",
       "frequency": "yearly",
       "type": "renewable",
       "scope_id": "full",
-      "product_id": "subscription_plus_yearly",
-      "description": "plus"
+      "product_id": "subscription_pro_yearly",
+      "description": "pro"
     },
     "limitation": {
       "max_count": 10,
@@ -21,7 +21,7 @@ obj = {
     },
     "expire_date": 1872518379000,
     "purchase_date": 1651639906000,
-    "subscription_id": "com.picsart.studio.subscription_plus_yearly",
+    "subscription_id": "com.picsart.studio.subscription_pro_yearly",
     "original_order_id": "",
     "is_eligible_for_grant": false,
     "is_eligible_for_introductory": false,
